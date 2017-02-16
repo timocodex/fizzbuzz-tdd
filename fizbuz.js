@@ -2,11 +2,11 @@
 
 module.exports={
   mkfizbuz: function(number){
-    let res=[]
+    var result=[]
     for(let i=1;i<=number;i++){
-      i%3===0 && i%5===0 ?res.push('fizzbuzz'): i%5 === 0 ? res.push('buzz') : i%3 === 0 ? res.push('fizz'):res.push(i)
+      i%3===0 && i%5===0 ?result.push('fizzbuzz'): i%5 === 0 ? result.push('buzz') : i%3 === 0 ? result.push('fizz'):res.push(i)
     }
-    return res
+    return result
 }
 
 }
