@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test":"test"
+    "test": "test"
   },
   "scripts": {
     "test": "mocha"
@@ -22,5 +22,10 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-arrays": "0.0.1"
-  }
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-arrays": "^0.0.1"
+  },
+  "keywords": []
 }
