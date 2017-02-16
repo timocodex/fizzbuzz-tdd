@@ -1,6 +1,6 @@
 languange: node_js
 node_js:
-  - "6"
+  - "7"
 before_script:
   - npm install
   - npm install --global mocha
