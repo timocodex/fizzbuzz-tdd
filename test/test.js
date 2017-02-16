@@ -1,7 +1,8 @@
+"use strict"
 const chai = require('chai')
 const should = chai.should()
-const assertArrays = require('chai-arrays');
-chai.use(assertArrays);
+const chaiArrays = require('chai-arrays');
+chai.use(chaiArrays);
 
 
 const fizzbuzz = require('../fizbuz')
