@@ -1,10 +1,10 @@
 
-const chai = require('chai')
-const should = chai.should()
+var chai = require('chai')
+var should = chai.should()
 
 
 
-const fizzbuzz = require('../fizbuz')
+var fizzbuzz = require('../fizbuz')
 
 
 
