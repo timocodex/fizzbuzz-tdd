@@ -1,4 +1,4 @@
-"use strict"
+
 const chai = require('chai')
 const should = chai.should()
 const chaiArrays = require('chai-arrays');
